@@ -33,7 +33,7 @@ var chance=0; //for only 2 time chance
       name =document.getElementById("name").value;
       email =document.getElementById("email").value;
       username =document.getElementById("username").value;
-      modal.style.display="none";
+     // modal.style.display="none";
      alert("registered");
     
 })
@@ -61,7 +61,6 @@ details.style.display="none";
 dice.style.display="block";
 }
 img3flag=true;
-})
 
 function dicefun(){
   img4flag=false;
@@ -86,9 +85,8 @@ function dicefun(){
   }
   }
 }
-
 dice.addEventListener("click",dicefun)
-
+})
 img4.addEventListener("click",()=>{
   dice.style.display="none"
   document.getElementById("sumT").style.display="none"
@@ -102,6 +100,7 @@ img4.addEventListener("click",()=>{
   }
   img4flag=true;
   img1flag=false;
+  
 })
 
 const characters ='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
