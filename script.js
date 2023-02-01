@@ -33,7 +33,7 @@ var chance=0; //for only 2 time chance
       name =document.getElementById("name").value;
       email =document.getElementById("email").value;
       username =document.getElementById("username").value;
-     // modal.style.display="none";
+      modal.style.display="none";
      alert("registered");
     
 })
